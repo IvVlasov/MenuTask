@@ -1,0 +1,376 @@
+[
+  {
+    "model": "menu.menu",
+    "pk": 1,
+    "fields": {
+      "name": "car_menu"
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 1,
+    "fields": {
+      "menu": 1,
+      "url": "lada",
+      "name": "LADA",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 4,
+    "fields": {
+      "menu": 1,
+      "url": "vesta",
+      "name": "Vesta",
+      "parent": 1
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 5,
+    "fields": {
+      "menu": 1,
+      "url": "granta",
+      "name": "Granta",
+      "parent": 1
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 6,
+    "fields": {
+      "menu": 1,
+      "url": "vaz_2112",
+      "name": "ВАЗ 2112",
+      "parent": 1
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 7,
+    "fields": {
+      "menu": 1,
+      "url": "vaz_2113",
+      "name": "ВАЗ 2113",
+      "parent": 1
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 3,
+    "fields": {
+      "menu": 1,
+      "url": "vw",
+      "name": "Volkswagen",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 8,
+    "fields": {
+      "menu": 1,
+      "url": "golf",
+      "name": "Golf",
+      "parent": 3
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 9,
+    "fields": {
+      "menu": 1,
+      "url": "polo",
+      "name": "Polo",
+      "parent": 3
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 10,
+    "fields": {
+      "menu": 1,
+      "url": "polo_sedan",
+      "name": "Sedan",
+      "parent": 9
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 11,
+    "fields": {
+      "menu": 1,
+      "url": "polo_sedan_cfna",
+      "name": "CFNA",
+      "parent": 10
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 12,
+    "fields": {
+      "menu": 1,
+      "url": "polo_sedan_cfna_16",
+      "name": "1.6L",
+      "parent": 11
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 13,
+    "fields": {
+      "menu": 1,
+      "url": "polo_sedan_cfna_14",
+      "name": "1.4L",
+      "parent": 11
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 14,
+    "fields": {
+      "menu": 1,
+      "url": "polo_hatchback",
+      "name": "Hatchback",
+      "parent": 9
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 15,
+    "fields": {
+      "menu": 1,
+      "url": "passat",
+      "name": "Passat",
+      "parent": 3
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 16,
+    "fields": {
+      "menu": 1,
+      "url": "passat_six",
+      "name": "VI",
+      "parent": 15
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 17,
+    "fields": {
+      "menu": 1,
+      "url": "passat_seven",
+      "name": "VII",
+      "parent": 15
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 2,
+    "fields": {
+      "menu": 1,
+      "url": "kia",
+      "name": "KIA",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menu",
+    "pk": 2,
+    "fields": {
+      "name": "product_menu"
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 18,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables",
+      "name": "Овощи",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 19,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables_root",
+      "name": "Корнеплодные",
+      "parent": 18
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 20,
+    "fields": {
+      "menu": 2,
+      "url": "vegit_legumes_beet",
+      "name": "Свекла",
+      "parent": 19
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 21,
+    "fields": {
+      "menu": 2,
+      "url": "vegit_legumes_carrot",
+      "name": "Морковь",
+      "parent": 19
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 22,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables_fruit",
+      "name": "Плодовые",
+      "parent": 18
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 23,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables_legumes_tomatos",
+      "name": "Томат",
+      "parent": 22
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 24,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables_legumes",
+      "name": "Бобовые",
+      "parent": 18
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 25,
+    "fields": {
+      "menu": 2,
+      "url": "vegitables_legumes_peas",
+      "name": "Горох",
+      "parent": 24
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 26,
+    "fields": {
+      "menu": 2,
+      "url": "fruits",
+      "name": "Фрукты",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 27,
+    "fields": {
+      "menu": 2,
+      "url": "apple",
+      "name": "Яблоки",
+      "parent": 26
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 28,
+    "fields": {
+      "menu": 2,
+      "url": "banana",
+      "name": "Бананы",
+      "parent": 26
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 29,
+    "fields": {
+      "menu": 2,
+      "url": "orange",
+      "name": "Апельсины",
+      "parent": 26
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 30,
+    "fields": {
+      "menu": 2,
+      "url": "meat_wares",
+      "name": "Мясные изделия",
+      "parent": null
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 31,
+    "fields": {
+      "menu": 2,
+      "url": "meat",
+      "name": "Мясо",
+      "parent": 30
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 32,
+    "fields": {
+      "menu": 2,
+      "url": "meat_cow",
+      "name": "Говядина",
+      "parent": 31
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 33,
+    "fields": {
+      "menu": 2,
+      "url": "meat_pig",
+      "name": "Свинина",
+      "parent": 31
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 34,
+    "fields": {
+      "menu": 2,
+      "url": "meat_elk",
+      "name": "Лосятина",
+      "parent": 31
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 35,
+    "fields": {
+      "menu": 2,
+      "url": "chiken",
+      "name": "Курица",
+      "parent": 30
+    }
+  },
+  {
+    "model": "menu.menuItem",
+    "pk": 36,
+    "fields": {
+      "menu": 2,
+      "url": "fish",
+      "name": "Рыба",
+      "parent": 30
+    }
+  }
+]

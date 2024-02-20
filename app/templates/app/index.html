@@ -1,0 +1,15 @@
+{% load menu_tags %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+    <title>Главная </title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 50%;">{% draw_menu 'product_menu' %}</div>
+        <div style="width: 50%;">{% draw_menu 'car_menu' %}</div>
+    </div>
+</body>
+</html>

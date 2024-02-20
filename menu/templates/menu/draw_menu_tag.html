@@ -1,0 +1,38 @@
+<style>
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    nav a {
+        background-color: #eee;
+        color: black;
+        display: block;
+        max-width: 300px;
+        box-sizing: border-box;
+        padding: 12px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #ccc;
+    }
+    nav a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+</style>
+
+
+<nav>
+    <ul>
+        {% for item in items %}
+            {% widthratio item.level 1 32 as padding_size %}
+            <li>
+                <a href="{{ item.url }}" class="{% if item.url == urlpath %} active {% endif %}"
+                style="padding-left: {{padding_size|add:12}}px">
+                {{item.name}} 
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
