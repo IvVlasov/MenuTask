@@ -17,6 +17,8 @@
 Для быстрой демонстрации возможностей в приложении добавлен готовый набор fixtures, содержащий готовые меню. Загрузите их с помощью:
 <pre>python manage.py loaddata fixtures/menu.json --app app.menu</pre>
 
+Если проект запускается на боевом сервере - установите: <code>DEBUG = False</code>
+
 Приложение с именем app добавлен, как пример стороннее django-app для демонстрации применения menu.
 Запустите
 <pre>python manage.py runserver</pre>
